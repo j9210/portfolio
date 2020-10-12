@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--tertiary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --primary-color: #80ffec;
+    --secondary-color: #1c0221;
+    --tertiary-color: #201a25;
+    --quaternary-color: #645e9d;
+}
+
+/* Header Style Start */
+
+header {
+    padding: 20px 35px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 20%;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: var(--tertiary-color);
+    margin: 0;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+.rightCol{
+    border-right-style: solid;
+    border-right-color: coral;
+    border-right-width: 4px
+}
+
+.row{
+    margin-top: 25px;
+}
+
+.thirdRow{
+    width: 250px;
+    height: 200px;
+}
+
+.middleRow{
+    width: 300px;
+    height: 200px;
+}
+
+.bottomRow{
+    width: 250px;
+    height: 200px;
+}
+
+
+
+/* Hero section 
+.hero {
+    background-image: url("../css/imgs/IMG_9034.JPG");
+    background-size: cover;
+    background-position: 20%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    height: 300px;
+
+}
+
+.hero-text {
+    padding: 10px 15px;
+    font-size: 16px;
+    background: var(--quaternary-color);
+    color: var(--tertiary-color);
+
+}
+*/
+
+.jumbotron {
+    background-image: url("../css/imgs/IMG_9034.JPG") ;
+}
+/* Content */
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.ham {
+    color: var(--secondary-color);
+}
+
+.section-title {
+    margin: 20px;
+    font-size: 32px; 
+    width: 10%;
+    padding-left: 40px;
+    border-right: solid;
+}
+
+.content {
+    
+    margin-right: 25px;
+}
+
