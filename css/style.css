@@ -64,34 +64,9 @@ header nav ul li a {
     font-size: 1.55vw;
 }
 
-.rightCol{
-    border-right-style: solid;
-    border-right-color: coral;
-    border-right-width: 4px
-}
-
-.row{
-    margin-top: 25px;
-}
-
-.thirdRow{
-    width: 250px;
-    height: 200px;
-}
-
-.middleRow{
-    width: 300px;
-    height: 200px;
-}
-
-.bottomRow{
-    width: 250px;
-    height: 200px;
-}
 
 
-
-/* Hero section 
+/*Hero section*/ 
 .hero {
     background-image: url("../css/imgs/IMG_9034.JPG");
     background-size: cover;
@@ -111,11 +86,9 @@ header nav ul li a {
     color: var(--tertiary-color);
 
 }
-*/
 
-.jumbotron {
-    background-image: url("../css/imgs/IMG_9034.JPG") ;
-}
+
+
 /* Content */
 
 .flex-container {

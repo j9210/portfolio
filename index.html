@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio</title>
 </head>
@@ -31,70 +30,96 @@
         </nav>
     </header>
 
-    <!-- hero section
+    <main>
+    <!-- Hero section -->
     <section class="hero">
-            <h3 class="hero-text">Web developer and creator in Austin, Texas</h3>
-    </section> -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-        </div>
+      <div class="hero-text">Software developer and creator based in Austin, Texas</div>
+    </section>
+
+    <!-- About Me section -->
+    <section id="about-me">
+      <!-- section title -->
+      <h3 class="section-title">About Me</h3>
+      <div class="content">
+        <!-- about me text -->
+        <p>
+          I am currently enrolled in UT's fullstack web development bootcamp.
+          <br />
+          Here are my skilss
+          <br />
+          aspirations
+        </p>
       </div>
+    </section>
 
-      <div class="container">
-
-        <div class="row">
-          <div class="col-2 rightCol">
-          <h2>About Me</h2>
-          </div>
-          <div class="col-sm">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-          </div>
-        </div>
-  
-        <div class="row ">
-          <div class="col-2 rightCol">
-          <h2>Work</h2>
-          </div>
-          <div class="col-7">
-            <div class="row">
-                <img class="middleRow" src="./css/imgs/IMG_9034.JPG">
-
+    <!-- Work section -->
+    <section id="work">
+      <!-- section title -->
+      <h3 class="section-title">Work</h3>
+      <!-- Work grid start -->
+       <div class="grid-container">
+         <!-- Run Buddy Card -->
+         <div class="card main">
+           <div class="img-container soft">
+            <a href="https://j9210.github.io/run-buddy/">
+              <img class="soft" src="./css/imgs/run-buddyscreenshot.jpg" alt="">
+            </a>
+           </div>
+           <div class="text-container main">
+             <h4>Run Buddy</h4>
+             <p>HTML/CSS</p>
+           </div>
+         </div>
+         <!-- Robot Gladiator Card-->
+         <div class="card">
+           <div class="img-container soft">
+              <a href="https://j9210.github.io/robot-gladiators/">
+                <img class="soft" src="./css/imgs/robo.jpg" alt="">
+              </a>
+           </div>
+            <div class="text-container">
+              <h4>Robot Gladiators</h4>
+              <p>HTML/JS</p>
             </div>
-            <div class="row">
-                <div>
-                    <img class="bottomRow" src="./css/imgs/IMG_9034.JPG">
-                </div>
-                <img class="bottomRow" src="./css/imgs/IMG_9034.JPG">
-            </div>
-            
-        </div>
-          <div class="col-3">
-              <div class="row">
-                  <img class="thirdRow" src="./css/imgs/IMG_9034.JPG">
-              </div>
-              <div class="row">
-                <img class="thirdRow" src="./css/imgs/IMG_9034.JPG">
-              </div>
-
-
-          </div>
-        </div>
-
-        <div class="row">
-            <div class="col-2 rightCol">
-            <h2>contact Me</h2>
-            </div>
-            <div class="col-sm">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
-            </div>
-          </div>
-
-      </div> <!--container close-->
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+           </div>
+         <!-- Horiseon Card -->
+         <div class="card">
+           <div class="img-container soft">
+             <a href="https://j9210.github.io/urban-octo-telegram/">
+              <img class="soft" src="./css/imgs/horiseon.jpg" alt="">
+            </a>
+           </div>
+           <div class="text-container">
+             <h4>Horiseon</h4>
+             <p>HTML/CSS</p>
+           </div>
+         </div>
+         <!-- Password Generator Card -->
+         <div class="card">
+           <div class="img-container soft">
+             <a href="https://j9210.github.io/password-generator/">
+              <img class="soft" src="./css/imgs/Screenshotpwgenerator.jpg" alt="">
+            </a>
+           </div>
+           <div class="text-container">
+             <h4>Password Generator</h4>
+             <p>HTML/CSS/JS</p>
+           </div>
+         </div>
+      </div> 
+    </section>
+  <!-- Contact Me section -->
+  <section id="contact-me">
+    <!-- section title -->
+    <h3 class="section-title">Contact Me</h3>
+    <!-- contact information -->
+    <address>
+      <a href="tel:+15127010549">512.701.0459</a>
+      <a href="mailto:juliaolivia.t@gmail.com">juliaolivia.t@gmail.com</a>
+      <a href="https://www.linkedin.com/in/julia-tocker-786b3281">LinkedIn</a>
+      <a href="https://github.com/j9210">GitHub</a>
+    </address>
+  </section>
+ </main>
 </body>
-</html>
+
